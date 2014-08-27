@@ -22,7 +22,7 @@ a {
   text-decoration: none;
 }
 
-img {
+#gallery img {
   width: 252px;
   height:  219px;
   max-width: 100%; /*tells the images to fill the width of their parent container so when shrunk down, the images don't go outside the container */
@@ -32,6 +32,14 @@ img {
 /*=============================================
 			 Heading
 =============================================*/
+header {
+    float: left; /*mainly for style of desktop layout*/
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%; /*cuz it's a floated element, it doesn't have an explicit width anymore. so we want to specify that it spans the entire page.*/
+}
+
+
 #logo{
     text-align: center;
     margin: 0;
@@ -62,7 +70,15 @@ nav {
   margin: 20px 0 0;
 }
 
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
 
+nav li {
+  display: inline-block;  /*puts the items inline but allows them to still have some block attributes like width & height*/
+}
 
 /*=============================================
        Footer
