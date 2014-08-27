@@ -15,7 +15,9 @@ a {
   text-decoration: none;
 }
 
-
+img {
+  max-width: 100%; /*tells the images to fill the width of their parent container so when shrunk down, the images don't go outside the container */
+}
 
 
 /*=============================================
@@ -60,9 +62,28 @@ footer {
   font-size: 0.75em;
   text-align: center;
   padding-top: 50px;
+  clear: both;
   color: red;
 }
 
+
+
+/*=============================================
+       Page: Landing
+=============================================*/
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left; /*allows the item to lineup side by side cuz they float left and allow everything else to flow around them. */
+  width: 45%; /*regardless of the size of the browser window, each image will only ever take up 45% of it's parent element */
+  margin: 2.5%;
+  background-color: red;
+  color: green;
+}
 
 
 /*=============================================
