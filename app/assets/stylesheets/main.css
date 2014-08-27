@@ -12,6 +12,10 @@ body {
   padding: 0 5%;
 }
 
+#slider img {
+  max-width: 100%;
+}
+
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
@@ -80,6 +84,10 @@ nav li {
   display: inline-block;  /*puts the items inline but allows them to still have some block attributes like width & height*/
 }
 
+nav a {
+  font-weight: 800; /*can be normal or bold or a specific number. */
+  padding: 15px 10px; /*extra padding will make these links easier to click on a mobile device*/
+}
 /*=============================================
        Footer
 =============================================*/
