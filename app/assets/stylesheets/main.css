@@ -5,6 +5,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+#slider /*the main large picture on landing page*/
+{
+  max-width: 1024px;
+  margin: 25px auto 0;
+  padding: 0 5%;
+}
+
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
@@ -16,6 +23,8 @@ a {
 }
 
 img {
+  width: 252px;
+  height:  219px;
   max-width: 100%; /*tells the images to fill the width of their parent container so when shrunk down, the images don't go outside the container */
 }
 
@@ -62,7 +71,7 @@ footer {
   font-size: 0.75em;
   text-align: center;
   padding-top: 50px;
-  clear: both;
+  clear: both; /*clears both sides from anything flowing around it. otherwise it'll align itself up with other items on the page. */
   color: red;
 }
 
@@ -85,6 +94,13 @@ footer {
   color: green;
 }
 
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  text-align: center;
+  /*font-size: 0.75em;*/
+  color: yellow;
+}
 
 /*=============================================
 			 Colors
