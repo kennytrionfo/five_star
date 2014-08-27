@@ -1,35 +1,71 @@
-a {
-  text-decoration: none;
-}
-
+/*=============================================
+              General
+=============================================*/
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
 }
 
+a {
+  text-decoration: none;
+}
+
+
+
+
+/*=============================================
+			 Heading
+=============================================*/
 #logo{
     text-align: center;
     margin: 0;
 }
 
+h1 {
+  font-family: 'Average sans', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+/*=============================================
+			 Colors
+=============================================*/
+/*-------------- SITE BODY --------------*/
+body {
+  background-color: #fff;
+  color: #999;
+}
+/*------------- HEADER -----------*/
 header {
   background: lightblue;
   border-color: green;
 }
-
-h1, h2 {
-  color: white;
-}
-
+/* -----NAV BACKGROUND ON MOBILE DEVICES------*/
 nav {
   background: black;
 }
-
+/*————————————— LOGO TEXT ————————————*/
+h1, h2 {
+  color: white;
+}
+/*————————————— LINKS ————————————*/
+a {
+  color: orange;
+}
+/*————————————— nav links ————————————*/
 nav a, nav a:visited {
   color: lightgray;
 }
-
+/*————————————— selected nav link ————————————*/
 nav a.selected, nav a:hover {
   color: blue;
 }
