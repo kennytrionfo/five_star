@@ -8,8 +8,9 @@ body {
 #slider /*the main large picture on landing page*/
 {
   max-width: 1024px;
-  margin: 25px auto 0;
+  margin: 0 auto 0;
   padding: 0 5%;
+  background: blue;
 }
 
 #slider img {
@@ -38,15 +39,9 @@ a {
 =============================================*/
 header {
     float: left; /*mainly for style of desktop layout*/
-    margin: 0 0 30px 0;
+    margin: 0;
     padding: 5px 0 0 0;
     width: 100%; /*cuz it's a floated element, it doesn't have an explicit width anymore. so we want to specify that it spans the entire page.*/
-}
-
-
-#logo{
-    text-align: center;
-    margin: 0;
 }
 
 h1 {
@@ -139,11 +134,14 @@ footer {
 body {
   background-color: #fff;
   color: #999;
+  padding-top: 69px;
 }
 /*------------- HEADER -----------*/
 header {
-  background: lightblue;
+  background: yellow;
   border-color: green;
+  position: fixed;
+  top: 0;
 }
 /* -----NAV BACKGROUND ON MOBILE DEVICES------*/
 nav {
