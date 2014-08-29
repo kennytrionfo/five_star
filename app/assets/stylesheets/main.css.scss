@@ -14,7 +14,11 @@ body {
 }
 
 #slider img {
-  max-width: 100%;
+  max-width: 100%; /* Using percentages for image widths instead of pixel dusts makes the site fluid and responsive. */
+}
+
+#logo {
+  margin: 50px 0 0 50px;
 }
 
 #wrapper {
@@ -40,7 +44,6 @@ a {
 header {
     float: left; /*mainly for style of desktop layout*/
     margin: 0;
-    padding: 5px 0 0 0;
     width: 100%; /*cuz it's a floated element, it doesn't have an explicit width anymore. so we want to specify that it spans the entire page.*/
 }
 
@@ -66,7 +69,7 @@ h2 {
 nav {
   text-align: left;
   padding: 10px 0;
-  margin: 20px 0 0;
+  margin: 0;
   box-shadow: 2px 4px 6px #555;
 }
 
@@ -134,7 +137,7 @@ footer {
 body {
   background-color: #fff;
   color: #999;
-  padding-top: 69px;
+  padding-top: 45px;
 }
 /*------------- HEADER -----------*/
 header {
