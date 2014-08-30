@@ -21,11 +21,18 @@ body {
   margin: 50px 0 0 50px;
 }
 
-#middlesection {
+#topwrapper {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
   background: pink;
+}
+
+#bottomwrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background: yellow;
 }
 
 a {
@@ -38,6 +45,12 @@ a {
   max-width: 100%; /*tells the images to fill the width of their parent container so when shrunk down, the images don't go outside the container */
 }
 
+#footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background: green;
+}
 
 /*=============================================
 			 Heading
@@ -130,6 +143,29 @@ footer {
   /*font-size: 0.75em;*/
   color: yellow;
 }
+
+#threetopics {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#threetopics li {
+  float: left; /*allows the item to lineup side by side cuz they float left and allow everything else to flow around them. */
+  width: 40%; /*regardless of the size of the browser window, each image will only ever take up 45% of it's parent element */
+  margin: 2%;
+  background-color: red;
+  color: green;
+}
+
+#threetopics li p {
+  margin: 0;
+  padding: 5%;
+  text-align: center;
+  /*font-size: 0.75em;*/
+  color: black;
+}
+
 
 /*=============================================
 			 Colors
