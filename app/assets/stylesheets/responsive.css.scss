@@ -1,0 +1,12 @@
+/**********TWO COLUMN LAYOUT FOR CONTACT PAGE*************/
+@media screen and (min-width: 480px) /*This is a media Query rule that says to only add these styles if it's a digital screen and width is at least 480pixis*/
+/********** PORTFOLIO PAGE *************/
+{
+#gallery li {
+	width: 28.33333333333%;
+}
+
+#gallery li:nth-child(4n) {
+	clear: left;
+}
+}
